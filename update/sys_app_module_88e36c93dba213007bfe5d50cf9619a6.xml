@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Goods">04e36cdfdb6213007bfe5d50cf9619d5</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Goods</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_20811_consumer_goods</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_20811_consumer.goods_user</roles>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-12 09:58:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>88e36c93dba213007bfe5d50cf9619a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Goods</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Consumer Goods" source="x_20811_consumer">c84328dfdb6213007bfe5d50cf9619e8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Consumer Goods">c84328dfdb6213007bfe5d50cf9619e8</sys_scope>
+        <sys_update_name>sys_app_module_88e36c93dba213007bfe5d50cf9619a6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-12 09:58:58</sys_updated_on>
+        <timeline_page/>
+        <title>Goods</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

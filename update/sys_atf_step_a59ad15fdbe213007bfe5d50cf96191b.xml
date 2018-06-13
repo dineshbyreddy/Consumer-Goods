@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Set the values on the form as follows:
+First name = test
+and Last name = form 2
+and Location = (empty)</description>
+        <display_name>Set Field Values</display_name>
+        <inputs/>
+        <inputs/>
+        <order>5</order>
+        <step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-12 13:58:34</sys_created_on>
+        <sys_id>a59ad15fdbe213007bfe5d50cf96191b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Field Values</sys_name>
+        <sys_package display_value="Consumer Goods" source="x_20811_consumer">c84328dfdb6213007bfe5d50cf9619e8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Consumer Goods">c84328dfdb6213007bfe5d50cf9619e8</sys_scope>
+        <sys_update_name>sys_atf_step_a59ad15fdbe213007bfe5d50cf96191b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-12 13:58:34</sys_updated_on>
+        <table>sys_user</table>
+        <test display_value="test form 2">771a515fdbe213007bfe5d50cf961985</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=a59ad15fdbe213007bfe5d50cf96191b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>a59ad15fdbe213007bfe5d50cf96191b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-12 13:58:34</sys_created_on>
+        <sys_id>42ba915fdbe213007bfe5d50cf961977</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-12 13:58:34</sys_updated_on>
+        <value>first_name=test^last_name=form 2^location={{step['fd7ad15fdbe213007bfe5d50cf961916'].record_id}}^EQ</value>
+        <variable display_value="">b3dba2465320220002c6435723dc34f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>a59ad15fdbe213007bfe5d50cf96191b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-12 13:58:34</sys_created_on>
+        <sys_id>8eba915fdbe213007bfe5d50cf961976</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-12 13:58:34</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="">424ca6465320220002c6435723dc34b5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a59ad15fdbe213007bfe5d50cf96191b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>a59ad15fdbe213007bfe5d50cf96191b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-12 13:58:34</sys_created_on>
+        <sys_id>0eba915fdbe213007bfe5d50cf961976</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-12 13:58:34</sys_updated_on>
+        <table>var__m_atf_input_variable_fcae4a935332120028bc29cac2dc340e</table>
+        <value>first_name=test^last_name=form 2^location={{step['fd7ad15fdbe213007bfe5d50cf961916'].record_id}}^EQ</value>
+    </sys_element_mapping>
+</record_update>

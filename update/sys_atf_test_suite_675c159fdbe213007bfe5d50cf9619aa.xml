@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_test_suite">
+    <sys_atf_test_suite action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <name>Form test parent</name>
+        <parent/>
+        <sys_class_name>sys_atf_test_suite</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-12 14:05:56</sys_created_on>
+        <sys_id>675c159fdbe213007bfe5d50cf9619aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Form test parent</sys_name>
+        <sys_package display_value="Consumer Goods" source="x_20811_consumer">c84328dfdb6213007bfe5d50cf9619e8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Consumer Goods">c84328dfdb6213007bfe5d50cf9619e8</sys_scope>
+        <sys_update_name>sys_atf_test_suite_675c159fdbe213007bfe5d50cf9619aa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-12 14:05:56</sys_updated_on>
+    </sys_atf_test_suite>
+</record_update>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Set the values on the form as follows:
+Name = Test form</description>
+        <display_name>Set Field Values</display_name>
+        <inputs/>
+        <order>2</order>
+        <step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-12 13:57:22</sys_created_on>
+        <sys_id>2d5add9bdbe213007bfe5d50cf96193c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Field Values</sys_name>
+        <sys_package display_value="Consumer Goods" source="x_20811_consumer">c84328dfdb6213007bfe5d50cf9619e8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Consumer Goods">c84328dfdb6213007bfe5d50cf9619e8</sys_scope>
+        <sys_update_name>sys_atf_step_2d5add9bdbe213007bfe5d50cf96193c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-12 13:57:22</sys_updated_on>
+        <table>cmn_location</table>
+        <test display_value="test form 2">771a515fdbe213007bfe5d50cf961985</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=2d5add9bdbe213007bfe5d50cf96193c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>2d5add9bdbe213007bfe5d50cf96193c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-12 13:57:22</sys_created_on>
+        <sys_id>507a155fdbe213007bfe5d50cf96197b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-12 13:57:22</sys_updated_on>
+        <value>name=Test form^EQ</value>
+        <variable display_value="">b3dba2465320220002c6435723dc34f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>2d5add9bdbe213007bfe5d50cf96193c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-12 13:57:22</sys_created_on>
+        <sys_id>9c7a155fdbe213007bfe5d50cf96197a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-12 13:57:22</sys_updated_on>
+        <value>cmn_location</value>
+        <variable display_value="">424ca6465320220002c6435723dc34b5</variable>
+    </sys_variable_value>
+</record_update>
